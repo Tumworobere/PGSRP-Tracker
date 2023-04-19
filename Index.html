@@ -7,16 +7,63 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>PGRP_ Tracker</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <h1>PGRP- Survey Form</h1>
+        <p>Thank you for taking your time to answer these questions</p>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <form id="survey-form" action="/">
+            <fieldset id="profile-information">
+                <label id="name-label" for="name"> Name
+                    <input id ="name" class="input-area" type="text" placeholder="Enter your name" required>
+                </label>
+
+                <label id="email-label" for="email"> Email
+                    <input id="email" class="input-area" type="email" placeholder="Enter your Email" required>
+                  </label>    
+                  <label id="number-label" for="number"> Age (<small>optional</small>)
+                    <input id="number" class="input-area" type="number" min="17" max="120" placeholder="Age">
+                  </label>
+                  <label for="dropdown">Which option best describes your program of study?
+                    <select id="dropdown" class="input-area">
+                      <option disabled selected>Select current course</option>
+                      <option value="student">MIT</option>
+                      <option value="full time job">Master of Agric</option>
+                      <option value="full time learner">Master of Machine learning</option>
+                      <option value="full time learner">Master of Nursing</option>
+                      <option value="full time learner">PhD in Theology</option>
+                      <option value="prefer not say">Prefer not to say</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </label>
+            </fieldset>
+            <fieldset id="UCU main campus-rate"> Would you recommend UCU to a friend?
+                <label for="">
+                    <input type="radio" id="definitelyChoice" name="rateChoice" value="1" checked/> Definitely
+                  </label>
+                  <label for="">
+                    <input type="radio" id="maybeChoice" name="rateChoice" value="2"/> Maybe
+                  </label>
+                  <label for="">
+                    <input type="radio" id="notSureChoice" name="rateChoice" value="3"/> Not Sure
+                  </label>
+                  <label for="dropdown2">What is your favorite activity UCU ?
+                    <select id="dropdown2" class="input-area">
+                      <option selected disabled>Select an option</option>
+                      <option value="challenges">Challenges</option>
+                      <option value="projects">Projects</option>
+                      <option value="community">Community</option>
+                      <option value="open source">Open Source</option>
+                    </select>
+                  </label>
+            </fieldset>
+        </form>
         <script src="" async defer></script>
     </body>
 </html>
