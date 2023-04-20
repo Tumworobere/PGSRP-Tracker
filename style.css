@@ -16,7 +16,7 @@ body{
   background-position: center;
 }
 
-form, fieldtest, label, select, .input-area, textarea {
+form, fieldset, label, select, .input-area, textarea {
     margin: 0px;
     padding: 0px;
    }
@@ -81,4 +81,3 @@ form, fieldtest, label, select, .input-area, textarea {
     border-style: none;
     cursor: pointer;
   }
-  
