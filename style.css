@@ -5,7 +5,7 @@
 /* GENERAL */
 
 body{
-  width:100vw;
+  width:80vw;
   margin: 0px;
   padding-top: 2rem;
   font-family: 'Poppins', sans-serif;
@@ -14,55 +14,70 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  display: inline;
 }
 
 form, fieldset, label, select, .input-area, textarea {
     margin: 0px;
     padding: 0px;
+    width: 95%;
    }
    
    h1, p {
      margin: 0px auto;
      text-align: center;
+     width: 95%;
    }
    
    p {
      font-weight: 200;
      font-style: italic;
      margin-bottom: 1.75rem;
+     width: 95%;
    }
    
    /* FORMS */
    
    form {
      margin: 0px auto;
-     width: 80vw;
+     width: 100vw;
      max-width: 35rem;
      padding: 1.25rem 0.875rem; 
      background-color: rgba(27, 27, 50, 0.8);
      border-style: transparent;
-     border-radius: 5px;
-   }
-   
+     border-radius: 4px;
+     justify-content: center;
+    }
+
    fieldset {
      border-style: none;
+     width: 95%; 
+     display: inline;
+     border-radius: 5%;
    }
    
    label, select, .input-area, textarea, input[type="submit"] {
      display: block;
-     width: 100%;
+     width: 95%;
    }
    
    label {
      padding-bottom: 0.5rem;
-   }
-   
+     width: 95%;
+     border-radius: 200px;
+     font-size: medium;
+    }
+
    .input-area, textarea {
      padding: 0.5rem 0.75rem;
      text-align: left;
      color: #495057;
-     border-radius: 100px;
+     border-radius: 20px;
      border-style: none;
+     width: 95%;
    }
    
    ::placeholder {
@@ -70,7 +85,7 @@ form, fieldset, label, select, .input-area, textarea {
    } 
 
    #submit {
-    width: 95%;
+    width: 90%;
     margin: auto;
     font-family: 'Poppins';
     color: #f3f3f3;
@@ -92,6 +107,5 @@ form, fieldset, label, select, .input-area, textarea {
     border-color: white;
     border-radius: 4px;
     min-width: 300px;
+    width: 95%;
   }
-  
-  
