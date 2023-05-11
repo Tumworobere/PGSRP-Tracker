@@ -42,7 +42,12 @@ form, fieldset, label, select, .input-area, textarea {
      background-color: rgba(27, 27, 50, 0.8);
      border-style: transparent;
      border-radius: 4px;
-   }
+    }
+
+    form-center {
+      display:flex;
+      justify-content: center;
+    }
    
    fieldset {
      border-style: none;
