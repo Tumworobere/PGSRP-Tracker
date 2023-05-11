@@ -23,17 +23,20 @@ body{
 form, fieldset, label, select, .input-area, textarea {
     margin: 0px;
     padding: 0px;
+    width: 95%;
    }
    
    h1, p {
      margin: 0px auto;
      text-align: center;
+     width: 95%;
    }
    
    p {
      font-weight: 200;
      font-style: italic;
      margin-bottom: 1.75rem;
+     width: 95%;
    }
    
    /* FORMS */
@@ -52,18 +55,22 @@ form, fieldset, label, select, .input-area, textarea {
    fieldset {
      border-style: none;
      width: 95%; 
+     display: inline;
+     border-radius: 5%;
    }
    
    label, select, .input-area, textarea, input[type="submit"] {
      display: block;
-     width: 100%;
+     width: 95%;
    }
    
    label {
      padding-bottom: 0.5rem;
      width: 95%;
-   }
-   
+     border-radius: 200px;
+     font-size: medium;
+    }
+
    .input-area, textarea {
      padding: 0.5rem 0.75rem;
      text-align: left;
@@ -102,4 +109,3 @@ form, fieldset, label, select, .input-area, textarea {
     min-width: 300px;
     width: 95%;
   }
-  
